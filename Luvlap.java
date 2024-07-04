@@ -1,9 +1,10 @@
 class Luvlap{
+	static String brand = "luvlap";
+static String colour = "white";
+static String material = " plastic";
+static int price = 123;
 public static void main(String[] handwash){
-String brand = "luvlap";
-String colour = "white";
-String material = " plastic";
-int price = 123;
+
 System.out.println("the brand is " + brand);
 System.out.println(" the colour is " + colour);
 System.out.println(" the material is " + material);

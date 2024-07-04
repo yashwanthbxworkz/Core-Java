@@ -1,11 +1,14 @@
 class BotAirdopes{
+	
+static String brand = "boat";
+static String colour = "Black";
+static String earPlacement	= "In Ear";
+static String formFactor	= "In Ear";
+static String noiseControl= "None";
+static int price = 500;
+	
 public static void main(String[] buletooth){
-String brand = "boat";
-String colour = "Black";
-String earPlacement	= "In Ear";
-String formFactor	= "In Ear";
-String noiseControl= "None";
-int price = 500;
+
 System.out.println("the botairdopes brand is " + brand);
 System.out.println("the botAirdopes colour is " + colour);
 System.out.println("the botairdopes earPlacementis " + earPlacement);

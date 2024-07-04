@@ -1,12 +1,9 @@
 class Babybrezza {
-	
-	
-static	String brand    = " bady brezzer";
-static  String  colour   = "white";
-static  String  shape  = "square";
-static   int price = 500;
-		
-	
+	static String brand    = " bady brezzer";
+static String  colour   = "white";
+static String  shape  = "square";
+static int price = 500;
+
 public static void main(String[] water){
 
 System.out.println("the brand is " + brand);

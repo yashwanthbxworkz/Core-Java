@@ -1,10 +1,12 @@
 class Bottle{
+	static String brand = "bisleri";
+static String color = "white";
+static int price = 20;
+static String material = "plastic";
+static String shape = "circlre";
+
 public static void main(String[] fullthewater){
-String brand = "bisleri";
-String color = "white";
-int price = 20;
-String material = "plastic";
-String shape = "circlre";
+
 System.out.println("the brand is " + brand);
 System.out.println("the color is " + color);
 System.out.println("the price is " + price);

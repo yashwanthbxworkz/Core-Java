@@ -1,12 +1,16 @@
 class Xiaomi{
+	
+	
+static	String	connectivityTechnology = "Wireless";
+static		String specialFeature = "Portable Night Vision";
+static		String indoorAndOutdoor = "indoor";
+static		String compatibleDevices = "iPhone, Laptop, Tablet, Smartphone";
+static		String powerSource  =  "Corded Electric";
+static		String connectivityProtocol	= "Bluetooth";
+static		String controllerType =	"Android";
+	
 public static void main(String[] Wireless){
-	String	connectivityTechnology = "Wireless";
-	String specialFeature = "Portable Night Vision";
-	String indoorAndOutdoor = "indoor";
-	String compatibleDevices = "iPhone, Laptop, Tablet, Smartphone";
-	String powerSource  =  "Corded Electric";
-	String connectivityProtocol	= "Bluetooth";
-	String controllerType =	"Android";
+
 	
 	System.out.println("the xiaomi connectivityProtocol is " + connectivityProtocol);
 	System.out.println("the xiaomi special feature is " + specialFeature);

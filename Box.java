@@ -1,11 +1,14 @@
 class Box{
+	
+	static	String typeName = "plastic";
+			static	int price = 100;			
+			static	String shape = "triangle";
+			static	String store = "choloclate";
+		static	String color = "white";
+		
 	public static void main(String[] fullItems){
 			System.out.println("description About BOx");
-				String typeName = "plastic";
-				int price = 100;			
-				String shape = "triangle";
-				String store = "choloclate";
-				String color = "white";
+			
 				System.out.println("the Box type name is " + typeName);
 			System.out.println("the box price is " + price);
 			System.out.println("the box shape is  " + shape);

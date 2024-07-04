@@ -1,9 +1,12 @@
 class Loreto{
+	
+	static String  brand   = "loreto";
+static String  colour   = "white";
+static String   pattern  = "Polka Dot";
+static int price =450;
+
 public static void main(String[] cotton){
-String  brand   = "loreto";
-String  colour   = "white";
-String   pattern  = "Polka Dot";
-int price =450;
+
 
 System.out.println("the brand is " + brand);
 System.out.println("the colour is " + colour);

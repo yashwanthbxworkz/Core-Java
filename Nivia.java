@@ -1,11 +1,14 @@
 class Nivia {
-public static void main(String[] football){
-   String brand = "Nivia";
-    String material = "Rubber";
-    String color = "White";
-    String ageRange = "Youth";
-    int itemWeight = 420;
+	
+	
+	static String brand = "Nivia";
+    static  String material = "Rubber";
+    static String color = "White";
+    static String ageRange = "Youth";
+    static int itemWeight = 420;
 
+public static void main(String[] football){
+  
 
 
 System.out.println("the nivia brand is " + brand);

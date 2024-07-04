@@ -1,9 +1,11 @@
 class Ntellilens {
+	static String brand = "ntellilens";
+static String color = "pink";
+static String material = "plastic";
+static int price = 123;
+
 public static void main(String[] sungalles){
-String brand = "ntellilens";
-String color = "pink";
-String material = "plastic";
-int price = 123;
+
 
 System.out.println("the brand  is " + brand);
 System.out.println("the color is " + color);
