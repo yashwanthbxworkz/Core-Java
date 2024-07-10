@@ -1,32 +1,35 @@
 class Speaker{
 
 static boolean isConneted = false;
-public static boolean turnon(){
+public static boolean onOrOff(){
 
 
 System.out.println("start of turnon");
-if(isConneted == false){
-isConneted = true;
-System.out.println("the speaker is trunon.......");
+if(!isConneted) isConneted =true;
+	else if(isConneted) isConneted = false;
+//isConneted = true;
 
-}
+//}else if(isConneted){
+	//isConneted = false;
+//}
 
 System.out.println("end of turnon");
 return isConneted;
 
 }
+} 
 
-public static boolean turnoff(){
-System.out.println("start of turnoff");
-if(isConneted == true){
-isConneted = false;
-System.out.println("the speaker is turnoff");
+//public static boolean turnoff(){
+//System.out.println("start of turnoff");
+//if(isConneted == true){
+//isConneted = false;
+//System.out.println("the speaker is turnoff");
 
 
-}
+//}
 
-System.out.println("end of turnoff");
-return isConneted;
+//System.out.println("end of turnoff");
+//return isConneted;
 
-}
-}
+//}
+//}
