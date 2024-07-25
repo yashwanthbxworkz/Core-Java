@@ -14,6 +14,7 @@ class AmazonProductRun{
 				product	= AmazonProduct.searchproduct("fiction");
 				product	= AmazonProduct.searchproduct("dvd");
 				
+				product=AmazonProduct.upDataingAmazonProudct("ipad" , "iphone");
 				if(product){
 				AmazonProduct.readamazonproduct();
 				}

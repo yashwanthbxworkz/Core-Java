@@ -25,6 +25,19 @@ System.out.println("the medicine Name is :" + medicineName);
 
 
 }
+			public static boolean upDataingMedicalStore(String oldmedicine , String newmedicine){
+				boolean isupdataing = false;
+				for(int position = 0; position<medicineNames.length; position++){
+					if(medicineNames[position]== oldmedicine){
+						medicineNames[position] = newmedicine;
+						isupdataing = true;
+					}
+				}
+				if(isupdataing== false)
+					System.out.println(oldmedicine + " :not found");
+				return isupdataing ;
+				
+			}
 
 
 }

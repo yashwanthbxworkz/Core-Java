@@ -18,11 +18,23 @@ class TouristCompany{
 			
 			return isfinding ;
 			}
-
 			public static void readplacename(){
 			for(String placename: touristPlaceName){
 			System.out.println("the tourist place name is : "+ placename);
 			
 			}
+			}
+			public static boolean upDataingTouristCompany(String oldPlaceName , String newPlaceName){
+				boolean isupDataing = false;
+				for(int position = 0 ; position < touristPlaceName.length;position++){
+					if(touristPlaceName[position] == oldPlaceName){
+						touristPlaceName[position] = newPlaceName;
+						isupDataing = true;
+					}
+				}
+				if(isupDataing==false)
+					System.out.println(oldPlaceName + "not found");
+				return isupDataing;
+				
 			}
 }

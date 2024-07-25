@@ -9,10 +9,14 @@ public static void main(String[] agrs){
 			juicenameadded	= JuiceShop.juiceNameAdded("strawberry");
 			juicenameadded	= JuiceShop.juiceNameAdded("banana juice");
 						if(juicenameadded)
-						JuiceShop.ShowesjuicesNames();
+						JuiceShop.showesJuicesNames();
 						
 
-
+						boolean	updata	= JuiceShop.updateJuiceName("banana juice" ,"grapes");
+						
+						if(updata)
+							JuiceShop.showesJuicesNames();
+							
 }
 
 

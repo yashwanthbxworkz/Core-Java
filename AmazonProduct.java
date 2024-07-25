@@ -28,4 +28,19 @@ class AmazonProduct{
 				
 				
 				}
+				public static boolean upDataingAmazonProudct(String oldProduct , String newProduct){
+					boolean isupDataing = false;
+					for(int position = 0; position<productname.length; position++){
+						if(productname[position]== oldProduct){
+							productname[position]=newProduct;
+							isupDataing = true;
+						}
+							
+						
+					}
+					if(isupDataing == false)
+					System.out.println(oldProduct + " :not found");
+
+					return isupDataing;
+				}
 }

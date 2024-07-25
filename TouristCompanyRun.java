@@ -11,8 +11,9 @@ place = TouristCompany.searchforPlace(" Orbitz");
 place = TouristCompany.searchforPlace("Travelocity");
 place = TouristCompany.searchforPlace("Virgin Holidays");
 place = TouristCompany.searchforPlace("Airbnb");
-place = TouristCompany.searchforPlace("TUI ");
+place = TouristCompany.searchforPlace("TUI");
 place = TouristCompany.searchforPlace("TripAdvisor");
+place = TouristCompany.upDataingTouristCompany("TUI" , "bedsheet");
 if(place){
 TouristCompany.readplacename();
 

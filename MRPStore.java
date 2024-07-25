@@ -23,6 +23,20 @@ public static void readalocholnames(){
 		}
 
 }
+		public static boolean upDataMRPStore(String oldAlcohol, String newAlcohol){
+			boolean isupdataing = false;
+			for(int position = 0 ; position<alcoholNames.length;position++){
+				if(alcoholNames[position] == oldAlcohol){
+					alcoholNames[position] = newAlcohol;
+					isupdataing = true;
+				}
+				
+				}
+				if(isupdataing == false)
+					System.out.println(oldAlcohol + "not found");
+				return isupdataing ;
+			}
+			
+		}
 
 
-}

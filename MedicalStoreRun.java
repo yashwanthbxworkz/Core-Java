@@ -12,6 +12,7 @@ name	=	MedicalStore.searchmedicinename("Giant Eagle Pharmacy");
 name	=	MedicalStore.searchmedicinename(" CVS Pharmacy");
 name	=	MedicalStore.searchmedicinename("kroger Pharmacy -");
 name	=	MedicalStore.searchmedicinename("arget Pharmacy ");
+name = MedicalStore.upDataingMedicalStore("Rite Aid ", "dolo");
 if(name)
 MedicalStore.readmedicinename();
 

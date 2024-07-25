@@ -12,6 +12,7 @@ public static void main(String[] agrs){
 		name = MRPStore.searchalcoholes("Grey Goose");
 		name = MRPStore.searchalcoholes("Jameson");
 		name = MRPStore.searchalcoholes("Corona ");
+		name = MRPStore.upDataMRPStore("Jameson", "van");
 
 		if(name){
 			MRPStore.readalocholnames();

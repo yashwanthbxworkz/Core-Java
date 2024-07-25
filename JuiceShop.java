@@ -1,6 +1,6 @@
 class JuiceShop{
-static String juiceName[] = {null, null , null, null ,null , null};
-static int index;
+			static String juiceName[] = {null, null , null, null ,null , null};
+				static int index;
 
 			public static boolean juiceNameAdded(String juiceNames){
 			boolean isfulledadded = false;
@@ -19,7 +19,7 @@ static int index;
 
 
 
-		public static void ShowesjuicesNames(){
+		public static void showesJuicesNames(){
 		
 			for(String juiceNamed:juiceName){
 			
@@ -27,11 +27,27 @@ static int index;
 			
 			}
 		
+		}
 		
+			public static boolean updateJuiceName(String oldJuiceName, String newJuiceName){
+				boolean isupdataing = false;
+					for(int position = 0; position<juiceName.length; position++){
+						if(juiceName[position]== oldJuiceName){
+					juiceName[position] = newJuiceName;
+					isupdataing = true;
+					}
+							
+				
+			}
+			if(isupdataing == false)
+			System.out.println(oldJuiceName + " not found");
+			
+				
+			return isupdataing;	
 		}
 			
 
-
+		
 
 
 
