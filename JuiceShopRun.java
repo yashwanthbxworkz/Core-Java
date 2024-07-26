@@ -11,7 +11,7 @@ public static void main(String[] agrs){
 						if(juicenameadded)
 						JuiceShop.showesJuicesNames();
 						
-
+								juicenameadded	= JuiceShop.deletedjuiceName("watermelon");
 						boolean	updata	= JuiceShop.updateJuiceName("banana juice" ,"grapes");
 						
 						if(updata)

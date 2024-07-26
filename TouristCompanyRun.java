@@ -14,6 +14,7 @@ place = TouristCompany.searchforPlace("Airbnb");
 place = TouristCompany.searchforPlace("TUI");
 place = TouristCompany.searchforPlace("TripAdvisor");
 place = TouristCompany.upDataingTouristCompany("TUI" , "bedsheet");
+		place= TouristCompany.deletedtouristPlaceName("Thomas Cook");
 if(place){
 TouristCompany.readplacename();
 

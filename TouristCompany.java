@@ -1,3 +1,4 @@
+import java.util.*;
 class TouristCompany{
 	static int index;
 	static	String touristPlaceName[] = {null,null,null,null,null,null,null,null,null,null};
@@ -36,5 +37,21 @@ class TouristCompany{
 					System.out.println(oldPlaceName + "not found");
 				return isupDataing;
 				
+			}
+			public static boolean deletedtouristPlaceName(String deleted){
+				boolean isdeleting = false;
+				int position, newposition;
+				for(position=0 ,newposition=0;position<touristPlaceName.length;position++){
+					if(touristPlaceName[position]!= deleted){
+						touristPlaceName[newposition]=touristPlaceName[position];
+						newposition++;
+						isdeleting=true;
+					}else
+						isdeleting=false;
+					
+				}
+				
+				touristPlaceName = Arrays.copyOf(touristPlaceName , newposition);
+				return isdeleting;
 			}
 }

@@ -1,3 +1,4 @@
+import java.util.*;
 class AmazonProduct{
 	static	String productname[] = {null,null,null,null,null,null,null,null,null,null};
 		static  int index;
@@ -42,5 +43,20 @@ class AmazonProduct{
 					System.out.println(oldProduct + " :not found");
 
 					return isupDataing;
+				}
+				public static boolean deletedproductname(String deleted){
+					boolean isdeleting = false;
+					int position,newposition;
+					for(position = 0,newposition=0; position<productname.length;position++){
+						if(productname[position]!= deleted){
+							productname[newposition] = productname[position];
+							newposition++;
+							
+						}else 
+							isdeleting = true;
+					}
+					
+					productname = Arrays.copyOf(productname, newposition);
+					return isdeleting;
 				}
 }

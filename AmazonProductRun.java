@@ -13,7 +13,7 @@ class AmazonProductRun{
 				product	= AmazonProduct.searchproduct("perfuns");
 				product	= AmazonProduct.searchproduct("fiction");
 				product	= AmazonProduct.searchproduct("dvd");
-				
+			product	= AmazonProduct.deletedproductname("pans");
 				product=AmazonProduct.upDataingAmazonProudct("ipad" , "iphone");
 				if(product){
 				AmazonProduct.readamazonproduct();

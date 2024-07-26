@@ -1,3 +1,4 @@
+import java.util.*;
 class JuiceShop{
 			static String juiceName[] = {null, null , null, null ,null , null};
 				static int index;
@@ -45,10 +46,35 @@ class JuiceShop{
 				
 			return isupdataing;	
 		}
+			public static boolean deletedjuiceName(String deleted){
+				boolean isdeleting = false;
+				int position, newposition;
+				for(position = 0, newposition = 0; position<juiceName.length; position++){
+					if(juiceName[position] != deleted){
+						juiceName[newposition] = juiceName[position];
+						newposition++;
+					}else 
+						isdeleting = true;
+					
+				}
+				
+				
+				
 			
 
+					  
+				juiceName = Arrays.copyOf(juiceName, newposition);
+					
+					return isdeleting;
+				}
+				
+				
+				
+				
+				
+				
+				
 		
-
 
 
 
